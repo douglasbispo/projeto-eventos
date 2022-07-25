@@ -1,0 +1,177 @@
+/* search container */
+#search-container {
+    background-image: url("../img/banner.webp");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search-container h1 {
+    color: #f2a340;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+#search-container form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+/* Events list (cards) */
+#events-container {
+    padding: 50px;
+}
+
+#events-container h2 {
+    margin-bottom: 10px;
+}
+
+#events-container .subtitle {
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+#cards-container {
+    display: flex;
+}
+
+#events-container .card {
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: 3px;
+}
+
+#events-container img {
+    height: 170px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-date {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.card .card-title {
+    font-size: 20px;
+    color: #212121;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card .card-participantes {
+    font-size: 14px;
+    color: #757575;
+}
+
+/* Events create page (Pagina de cadastro)*/
+#event-create-container {
+    padding: 30px;
+}
+
+#event-create-container label {
+    font-weight: bold;
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea {
+    font-size: 14px;
+}
+
+/* Events page (Saber mais cards)*/
+#image-container,
+#info-container {
+    margin-top: 30px;
+}
+
+#image-container img {
+    border-radius: 10px;
+}
+
+#info-container h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container p {
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+}
+
+#info-container h3,
+#description-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#info-container ion-icon {
+    font-size: 20px;
+    color: #f2a340;
+    margin-right: 5px;
+}
+
+#info-container #event-submit {
+    margin: 20px 0;
+}
+
+#items-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#items-list li {
+    display: flex;
+}
+
+#description-container {
+    margin-top: 30px;
+}
+
+#info-container .already-joined-msg {
+    color: #004085;
+    background-color: #cce5ff;
+    border: 1px solid #b8daff;
+    margin: 15px 0;
+    padding: 10px;
+    width: 275px;
+    border-radius: 3px;
+}
+
+#info-container #leave-event button {
+    margin: 15px 0 15px 5px;
+    padding: 10px;
+    width: 110px;
+    border-radius: 3px;
+}
+
+#info-container .container-info-button {
+    display: flex;
+}
+
+/* Dashboard */
+.dashboard-title-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashboard-events-container th {
+    width: 25%;
+}
+
+.dashboard-events-container form {
+    display: inline-block;
+}
+
+/* Edit page */
+.img-preview {
+    width: 100px;
+    margin-top: 20px;
+}
